@@ -1,2 +1,4 @@
 // Your code here
-function 
+function mapToNegativize(sourceArray) {
+  sourceArray.map( number => number * -1)
+}
