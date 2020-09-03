@@ -26,14 +26,14 @@ function mapToDouble(sourceArray) {
 function mapToSquare(sourceArray) {
   let newArray = []
   for (let i = 0; i < sourceArray.length; i++) {
-    newArray.push(sourceArray[i] ** 2)
+    newArray.push(sourceArray[i]**2); 
   }
   return newArray; 
 }
 
 function reduceToTotal(sourceArray, startingPoint) {
   let total = startingPoint
-  for (let i = 0; i < sourceArray.length, i++) {
+  for (let i = 0; i < sourceArray.length; i++) {
     total += sourceArray[i]
   }
   return total;
