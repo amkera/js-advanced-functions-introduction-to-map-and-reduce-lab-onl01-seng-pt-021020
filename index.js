@@ -7,4 +7,12 @@ function mapToNegativize(sourceArray) {
   return newArray; 
 }
 
+function mapToNegativize(sourceArray) {
+  let newArray = []
+  for (let i = 0; i < sourceArray.length; i++) {
+    newArray.push(sourceArray[i] * -1)
+  }
+  return newArray; 
+}
+
 
