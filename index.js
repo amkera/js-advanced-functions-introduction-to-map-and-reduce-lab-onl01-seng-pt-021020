@@ -1,4 +1,10 @@
 // Your code here
 function mapToNegativize(sourceArray) {
-  sourceArray.map( number => number * -1)
+  let newArray = []
+  for (let i = 0; i < sourceArray.length; i++) {
+    newArray.push(sourceArray[i] * -1)
+  }
+  return newArray; 
 }
+
+
