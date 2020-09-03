@@ -7,10 +7,10 @@ function mapToNegativize(sourceArray) {
   return newArray; 
 }
 
-function mapToNegativize(sourceArray) {
+function mapToNoChange(sourceArray) {
   let newArray = []
   for (let i = 0; i < sourceArray.length; i++) {
-    newArray.push(sourceArray[i] * -1)
+    newArray.push(sourceArray[i])
   }
   return newArray; 
 }
